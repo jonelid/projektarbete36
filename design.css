@@ -8,26 +8,10 @@ body{
 }
 
 .Knapp1{
-  display: inline-block;
-  border-radius: 8px;
-  color: #FFFFFF;
-  text-align: center;
-  font-size: 12px;
-  padding: 20px;
-  width: 60px;
-  margin: auto;
   cursor: pointer;
 }
 
 .Knapp2{
-  display: inline-block;
-  border-radius: 8px;
-  color: #FFFFFF;
-  text-align: center;
-  font-size: 12px;
-  padding: 20px;
-  width: 60px;
-  margin: auto;
   cursor: pointer;
 }
 
