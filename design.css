@@ -14,4 +14,7 @@ body{
 .Knapp2{
   cursor: pointer;
 }
+#fieldset{
+  width: 0;
+}
 
