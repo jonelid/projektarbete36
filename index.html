@@ -3,22 +3,28 @@
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="utf-8" />
-    <title>TEST</title>
+    <title>Nationsdejten</title>
     <link rel = "stylesheet" type="text/css" href = "design.css">
 </head>
 <body>
-    <h1 for "rubrik">Nationsdejten</h1>
-    <h2 for "urubrik">- En dejtingsajt för studenter</h2>
+    <h1 id = "rubrik">Nationsdejten</h1>
+    <h2 id = "uRubrik">- En dejtingsajt för studenter</h2>
     <div class = "BoxClass">
         <fieldset id = "fieldset">
+            <legend id = "legend"><fieldset id = "innerFieldset">Inloggning</fieldset></legend>
             <form method = "POST" action = "#">
-                <p>Användarnamn:</p>
-                <input type = "text" placeholder = "Användarnamn">
-                <p>Lösenord:</p>
-                <input type = "text" placeholder = "....">
+                <label for = "firstname">Användarnamn:</label>
+                <input type = "text" placeholder = "Användarnamn här..">
+                <p></p>
+                <label for = "password">Lösenord:</label>
+                <input type = "password" placeholder = "Lösenord här..">
                 <br>
                 <input type= "submit" value ="Logga in" class = "Knapp1">
-                <input type = "submit" value = "Registrera dig!" class = "Knapp2">
+                <br><br>
+                <div id = "divNotMember">
+                    <label>Inte medlem än? </label>
+                    <input type = "submit" value = "Registrera dig!" class = "Knapp2">
+                </div>
             </form>
         </fieldset>
     </div>
