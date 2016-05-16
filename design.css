@@ -8,6 +8,7 @@ body{
 
 .Knapp1{
   	cursor: pointer;
+  	width: 100%;
 }
 
 .Knapp2{
