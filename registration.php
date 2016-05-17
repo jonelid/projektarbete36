@@ -12,7 +12,7 @@
     <div class = "BoxClass">
         <fieldset id = "fieldset">
             <legend id = "legend"><fieldset id = "innerFieldset">Registrera</fieldset></legend>
-            <form method = "POST" action = "#">
+            <form method = "POST" action = "registration.php">
             
                 <label for = "username">Användarnamn:</label>
                 <input type = "text" placeholder = "Användarnamn här..">
